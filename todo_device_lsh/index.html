@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/todo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mbox">
+        <div id="box1">
+            <div class="section">
+                <div class="title">
+                    <h2>To-do list (React)</h2>
+                    <h4>할 일 관리 웹앱</h4>
+
+                    <p class="t1">React를 활용해 할 일 추가, 완료, 삭제 기능을 구현한 간단한 일정 관리 프로젝트입니다.</p>
+                    <p class="t2">프로젝트 진행자: 이서희</p>
+                </div>
+
+                <div class="concept">
+                    <h4>기획 의도</h4>
+
+                    <p>React의 상태 관리, 컴포넌트 구조를 이해하기 위해 제작한 할 일 관리 앱입니다. 로컬 스토리지를 활용해 새로고침 후에도 데이터가 유지되며, 완료 항목 숨기기·전체 삭제·목록 제거 등 실사용에 필요한 기능을 구현했습니다.</p>
+
+                    <h5>작동 원리</h5>
+
+                    <p class="work">할 일 목록을 상태(State)로 관리</p>
+                    
+                    <ul>
+                        <li>데이터 영속성: localStorage에 할 일 목록 데이터를 저장하고 불러옵니다.</li>
+                        <li>상태 변경: 사용자가 항목을 추가, 체크, 삭제할 때 useState를 사용해 데이터를 변경합니다.</li>
+                        <li>렌더링: 상태가 변경될 때마다 useEffect 훅을 통해 변경된 목록을 업데이트하고 localStorage에 저장합니다.</li>
+                    </ul>
+                </div>
+
+                <div class="color">
+                    <h2>STYLE GUIDE</h2>
+
+                    <h5>COLOR</h5>
+                    <ul>
+                        <li>
+                            <div class="col col1"></div>
+                            <span>#66BB6A</span>
+                        </li>
+
+                        <li>
+                            <div class="col col2"></div>
+                            <span>#252525</span>
+                        </li>
+
+                        <li>
+                            <div class="col col3"></div>
+                            <span>#EBEBEB</span>
+                        </li>
+
+                        <li>
+                            <div class="col col4"></div>
+                            <span>#ff5555</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="font">
+                    <h5>TYPOGRAPHY</h5>
+
+                    <p class="inter">Inter</p>
+
+                    <div class="f-box">
+                        <div class="typo">
+                            <p class="light">Light</p>
+                            <p class="regular">Regular</p>
+                            <p class="semi-bold">Semi bold</p>
+                            <p class="bold">Bold</p>
+                            <p class="black">Black</p>
+                        </div>
+
+                        <div class="typo1">
+                            <p class="light">To-do list</p>
+                            <p class="regular">To-do list</p>
+                            <p class="semi-bold">To-do list</p>
+                            <p class="bold">To-do list</p>
+                            <p class="black">To-do list</p>
+                        </div>
+
+                        <div class="typo2">
+                            <p class="light">할 일 목록</p>
+                            <p class="regular">할 일 목록</p>
+                            <p class="semi-bold">할 일 목록</p>
+                            <p class="bold">할 일 목록</p>
+                            <p class="black">할 일 목록</p>
+                        </div>
+
+                        <div class="typo3">
+                            <p class="light color">To-do list</p>
+                            <p class="regular color">To-do list</p>
+                            <p class="semi-bold color">To-do list</p>
+                            <p class="bold color">To-do list</p>
+                            <p class="black color">To-do list</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="program">
+                    <h2>PROGRAM</h2>
+
+                    <ul>
+                        <li><img src="img/html.png" alt="html"></li>
+                        <li><img src="img/css.png" alt="css"></li>
+                        <li><img src="img/js.png" alt="js"></li>
+                        <li><img src="img/react.png" alt="react"></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="button">
+                <a href="http://sag1880.dothome.co.kr/todo_dark.html" target="_blank">
+                    Go to Site
+                </a>
+            </div>
+        </div>
+
+        <div id="box2">
+            <div class="device">
+                <iframe src="http://sag1880.dothome.co.kr/todo_dark.html" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

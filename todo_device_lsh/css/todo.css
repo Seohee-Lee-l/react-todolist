@@ -1,0 +1,351 @@
+@charset "utf-8";
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Pretendard Variable', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+    margin: 0;
+    background: #252525;
+}
+
+a {
+    text-decoration: none;
+}
+
+#mbox {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15%;
+    padding-top: 50px;
+}
+
+#mbox #box1 {
+    width: 40%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 0.5rem;
+    height: 95%;
+    background: #131313;
+}
+
+#mbox #box1 .section {
+    width: 85%;
+    height: 70%;
+    margin: 2rem auto;
+}
+
+#mbox #box1 .title {
+    margin-bottom: 1rem;
+}
+
+#mbox #box1 .title h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.4rem;
+    color: #66BB6A;
+}
+
+#mbox #box1 .title h4 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ebebeb;
+    display: block;
+    margin-bottom: 0.6rem;
+}
+
+#mbox #box1 .title p.t1 {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-size: 0.9rem;
+    color: #ebebeb;
+}
+
+#mbox #box1 .title p.t2 {
+    display: block;
+    font-size: 0.8rem;
+    color: #7c7c7c;
+}
+
+#mbox #box1 .concept {
+    margin-bottom: 1.5rem;
+}
+
+#mbox #box1 .concept h4 {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+    color: #ebebeb;
+}
+
+#mbox #box1 .concept p {
+    font-size: 0.9rem;
+    color: #b5b5b5;
+    line-height: 1.6;
+}
+
+#mbox #box1 .concept h5 {
+    display: block;
+    margin-top: 0.7rem;
+    color: #66BB6A;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+#mbox #box1 .concept p.work {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #fff;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+#mbox #box1 .concept ul {
+    margin-left: 1.2rem;
+    color: #b5b5b5;
+    line-height: 1.6;
+}
+
+#mbox #box1 .concept ul li {
+    font-size: 0.8rem;
+    list-style-type: decimal;
+}
+
+#mbox #box1 .color {
+    margin-bottom: 1.5rem;
+}
+
+#mbox #box1 .color h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.4rem;
+    color: #66BB6A;
+}
+
+#mbox #box1 .color h5 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 0.6rem;
+    color: #ebebeb;
+}
+
+#mbox #box1 .color ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#mbox #box1 .color ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mbox #box1 .color ul li span {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #797979;
+    cursor: default;
+    transition: all .3s;
+}
+
+#mbox #box1 .color ul li:nth-child(1):hover span {
+    color: #66BB6A;
+}
+
+#mbox #box1 .color ul li:nth-child(2):hover span {
+    color: #252525;
+}
+
+#mbox #box1 .color ul li:nth-child(3):hover span {
+    color: #ebebeb;
+}
+
+#mbox #box1 .color ul li:nth-child(4):hover span {
+    color: #ff5555;
+}
+
+#mbox #box1 .color ul li div.col {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    margin-bottom: 0.4rem;
+    border: 1px solid transparent;
+}
+
+#mbox #box1 .color ul li div.col1 {
+    background: #66BB6A;
+}
+
+#mbox #box1 .color ul li div.col2 {
+    background: #252525;
+}
+
+#mbox #box1 .color ul li div.col3 {
+    background: #EBEBEB;
+}
+
+#mbox #box1 .color ul li div.col4 {
+    background: #ff5555;
+}
+
+#mbox #box1 .font {
+    margin-bottom: 1.5rem;
+}
+
+#mbox #box1 .font h5 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 0.6rem;
+    color: #ebebeb;
+}
+
+#mbox #box1 .font p.inter {
+    font-size: 0.85rem !important;
+    font-weight: 700 !important;
+    margin-bottom: 0.6rem;
+    color: #7c7c7c;
+}
+
+#mbox #box1 .font .f-box {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 1.8;
+    color: #ebebeb;
+}
+
+#mbox #box1 .font .f-box .typo3 {
+    line-height: 1.2;
+}
+
+#mbox #box1 .font .f-box .typo3 p {
+    line-height: 1.8;
+    margin: 0;
+}
+
+#mbox #box1 .font .f-box p.color {
+    color: #66BB6A;
+}
+
+#mbox #box1 .font .f-box p.light {
+    font-weight: 200;
+}
+
+#mbox #box1 .font .f-box p.regular {
+    font-weight: 300;
+}
+
+#mbox #box1 .font .f-box p.semi-bold {
+    font-weight: 500;
+}
+
+#mbox #box1 .font .f-box p.bold {
+    font-weight: 700;
+}
+
+#mbox #box1 .font .f-box p.black {
+    font-weight: 900;
+}
+
+#mbox #box1 .program {
+    padding-bottom: 1.4rem;
+}
+
+#mbox #box1 .program h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.4rem;
+    color: #66BB6A;
+}
+
+#mbox #box1 .program ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #2e2e2e;
+    padding: 0.2rem 0;
+    border-radius: 8px;
+}
+
+#mbox #box1 .program ul li img {
+    width: 30%;
+}
+
+#mbox #box1 .button {
+    position: absolute;
+    left: 41%;
+    top: 7%;
+}
+
+#mbox #box1 .button a {
+  color: #66BB6A;
+  border: 1px solid rgba(102, 187, 106, 0.4);
+  backdrop-filter: blur(4px);
+  border-radius: 6px;
+  padding: 0.3rem 1rem;
+  transition: all 0.3s ease;
+}
+
+#mbox #box1 .button a:hover {
+  background: rgba(102, 187, 106, 0.2);
+  color: #66BB6A;
+  box-shadow: 0 0 8px rgba(102, 187, 106, 0.2);
+  transform: translateY(-1px);
+}
+
+#mbox #box2 {
+    width: 30%;
+}
+
+#mbox #box2 .device {
+    position: relative;
+    padding: 60px 15px;
+    border: 6px solid #141414;
+    background: #000000;
+    box-shadow: 20px 10px 30px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#mbox #box2 .device::before, #mbox #box2 .device::after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+}
+
+#mbox #box2 .device::before {
+    width: 100px;
+    height: 15px;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    background: #2f2f2f;
+}
+
+#mbox #box2 .device::after {
+    width: 130px;
+    height: 4px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    background: #969696;
+}
+
+#mbox #box2 iframe {
+    width: 389px;
+    height: 660px;
+    border-radius: 10px;
+}
